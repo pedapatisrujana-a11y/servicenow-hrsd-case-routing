@@ -1,0 +1,14 @@
+{
+  "_property": "Store this JSON in system property x_portfolio.hr.routing_rules",
+  "defaultGroup": "hr_tier1",
+  "sensitiveGroup": "hr_employee_relations",
+  "contractorGroup": "hr_vendor_mgmt",
+  "routes": [
+    { "id": "payroll-us", "service": "payroll inquiry", "country": "US", "coe": "Payroll", "group": "hr_payroll_us", "response_hours": 16 },
+    { "id": "payroll", "service": "payroll inquiry", "coe": "Payroll", "group": "hr_payroll_global", "response_hours": 24 },
+    { "id": "benefits", "service": "benefits question", "coe": "Benefits", "group": "hr_benefits", "response_hours": 24 },
+    { "id": "leave", "service": "leave of absence", "coe": "Leave", "group": "hr_leave", "response_hours": 16, "sensitive": true },
+    { "id": "er", "service": "employee relations", "coe": "Employee Relations", "group": "hr_employee_relations", "response_hours": 8, "sensitive": true },
+    { "id": "catch-all", "service": "*", "coe": "HR General", "group": "hr_tier1", "response_hours": 24 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "Synthetic HR cases. No real employees or personal data.",
+  "cases": [
+    {"id": "c1", "hr_service": "Payroll inquiry", "subject_country": "US", "employee_type": "employee", "short_description": "Missing overtime on last paycheck"},
+    {"id": "c2", "hr_service": "Payroll inquiry", "subject_country": "IN", "employee_type": "employee", "short_description": "Tax form question"},
+    {"id": "c3", "hr_service": "Benefits question", "subject_country": "US", "employee_type": "employee", "short_description": "Need to report harassment by a coworker"},
+    {"id": "c4", "hr_service": "Leave of absence", "subject_country": "US", "employee_type": "employee", "short_description": "Planned parental leave"},
+    {"id": "c5", "hr_service": "Policy question", "subject_country": "US", "employee_type": "contractor", "short_description": "Holiday schedule"},
+    {"id": "c6", "hr_service": "Employee relations", "subject_country": "US", "employee_type": "employee", "short_description": "Manager concern", "is_vip": true}
+  ]
+}
