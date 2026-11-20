@@ -1,0 +1,12 @@
+{
+  "name": "servicenow-hrsd-case-routing",
+  "version": "1.0.0",
+  "description": "HR Service Delivery case routing with sensitive-case handling and onboarding lifecycle plan builder for ServiceNow, with unit tests.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node scripts/demo.js"
+  },
+  "engines": { "node": ">=18" }
+}
